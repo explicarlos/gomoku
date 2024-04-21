@@ -31,6 +31,12 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
+
+        campoEstado = new javax.swing.JLabel();
+        botonA = new javax.swing.JButton();
+        botonB = new javax.swing.JButton();
+        botonC = new javax.swing.JButton();
+
         a0 = new javax.swing.JLabel();
         a1 = new javax.swing.JLabel();
         a2 = new javax.swing.JLabel();
@@ -46,141 +52,141 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
         a12 = new javax.swing.JLabel();
         a13 = new javax.swing.JLabel();
         a14 = new javax.swing.JLabel();
-        a24 = new javax.swing.JLabel();
-        a25 = new javax.swing.JLabel();
-        a26 = new javax.swing.JLabel();
-        a27 = new javax.swing.JLabel();
-        a28 = new javax.swing.JLabel();
-        a29 = new javax.swing.JLabel();
+        a15 = new javax.swing.JLabel();
         a16 = new javax.swing.JLabel();
         a17 = new javax.swing.JLabel();
-        a15 = new javax.swing.JLabel();
         a18 = new javax.swing.JLabel();
         a19 = new javax.swing.JLabel();
         a20 = new javax.swing.JLabel();
         a21 = new javax.swing.JLabel();
         a22 = new javax.swing.JLabel();
         a23 = new javax.swing.JLabel();
-        a39 = new javax.swing.JLabel();
-        a40 = new javax.swing.JLabel();
-        a41 = new javax.swing.JLabel();
-        a42 = new javax.swing.JLabel();
-        a43 = new javax.swing.JLabel();
-        a44 = new javax.swing.JLabel();
-        a54 = new javax.swing.JLabel();
-        a55 = new javax.swing.JLabel();
-        a56 = new javax.swing.JLabel();
-        a57 = new javax.swing.JLabel();
-        a58 = new javax.swing.JLabel();
-        a59 = new javax.swing.JLabel();
-        a46 = new javax.swing.JLabel();
-        a47 = new javax.swing.JLabel();
-        a45 = new javax.swing.JLabel();
-        a48 = new javax.swing.JLabel();
-        a49 = new javax.swing.JLabel();
-        a50 = new javax.swing.JLabel();
-        a51 = new javax.swing.JLabel();
-        a52 = new javax.swing.JLabel();
-        a53 = new javax.swing.JLabel();
+        a24 = new javax.swing.JLabel();
+        a25 = new javax.swing.JLabel();
+        a26 = new javax.swing.JLabel();
+        a27 = new javax.swing.JLabel();
+        a28 = new javax.swing.JLabel();
+        a29 = new javax.swing.JLabel();
+        a30 = new javax.swing.JLabel();
         a31 = new javax.swing.JLabel();
         a32 = new javax.swing.JLabel();
-        a30 = new javax.swing.JLabel();
         a33 = new javax.swing.JLabel();
         a34 = new javax.swing.JLabel();
         a35 = new javax.swing.JLabel();
         a36 = new javax.swing.JLabel();
         a37 = new javax.swing.JLabel();
         a38 = new javax.swing.JLabel();
-        a69 = new javax.swing.JLabel();
-        a70 = new javax.swing.JLabel();
-        a71 = new javax.swing.JLabel();
-        a72 = new javax.swing.JLabel();
-        a73 = new javax.swing.JLabel();
-        a74 = new javax.swing.JLabel();
+        a39 = new javax.swing.JLabel();
+        a40 = new javax.swing.JLabel();
+        a41 = new javax.swing.JLabel();
+        a42 = new javax.swing.JLabel();
+        a43 = new javax.swing.JLabel();
+        a44 = new javax.swing.JLabel();
+        a45 = new javax.swing.JLabel();
+        a46 = new javax.swing.JLabel();
+        a47 = new javax.swing.JLabel();
+        a48 = new javax.swing.JLabel();
+        a49 = new javax.swing.JLabel();
+        a50 = new javax.swing.JLabel();
+        a51 = new javax.swing.JLabel();
+        a52 = new javax.swing.JLabel();
+        a53 = new javax.swing.JLabel();
+        a54 = new javax.swing.JLabel();
+        a55 = new javax.swing.JLabel();
+        a56 = new javax.swing.JLabel();
+        a57 = new javax.swing.JLabel();
+        a58 = new javax.swing.JLabel();
+        a59 = new javax.swing.JLabel();
+        a60 = new javax.swing.JLabel();
         a61 = new javax.swing.JLabel();
         a62 = new javax.swing.JLabel();
-        a60 = new javax.swing.JLabel();
         a63 = new javax.swing.JLabel();
         a64 = new javax.swing.JLabel();
         a65 = new javax.swing.JLabel();
         a66 = new javax.swing.JLabel();
         a67 = new javax.swing.JLabel();
         a68 = new javax.swing.JLabel();
-        a84 = new javax.swing.JLabel();
-        a85 = new javax.swing.JLabel();
-        a86 = new javax.swing.JLabel();
-        a87 = new javax.swing.JLabel();
-        a88 = new javax.swing.JLabel();
-        a89 = new javax.swing.JLabel();
-        a99 = new javax.swing.JLabel();
-        a100 = new javax.swing.JLabel();
-        a101 = new javax.swing.JLabel();
-        a102 = new javax.swing.JLabel();
-        a103 = new javax.swing.JLabel();
-        a104 = new javax.swing.JLabel();
-        a91 = new javax.swing.JLabel();
-        a92 = new javax.swing.JLabel();
-        a90 = new javax.swing.JLabel();
-        a93 = new javax.swing.JLabel();
-        a94 = new javax.swing.JLabel();
-        a95 = new javax.swing.JLabel();
-        a96 = new javax.swing.JLabel();
-        a97 = new javax.swing.JLabel();
-        a98 = new javax.swing.JLabel();
-        a114 = new javax.swing.JLabel();
-        a115 = new javax.swing.JLabel();
-        a116 = new javax.swing.JLabel();
-        a117 = new javax.swing.JLabel();
-        a118 = new javax.swing.JLabel();
-        a119 = new javax.swing.JLabel();
-        a129 = new javax.swing.JLabel();
-        a130 = new javax.swing.JLabel();
-        a131 = new javax.swing.JLabel();
-        a132 = new javax.swing.JLabel();
-        a133 = new javax.swing.JLabel();
-        a134 = new javax.swing.JLabel();
-        a121 = new javax.swing.JLabel();
-        a122 = new javax.swing.JLabel();
-        a120 = new javax.swing.JLabel();
-        a123 = new javax.swing.JLabel();
-        a124 = new javax.swing.JLabel();
-        a125 = new javax.swing.JLabel();
-        a126 = new javax.swing.JLabel();
-        a127 = new javax.swing.JLabel();
-        a128 = new javax.swing.JLabel();
-        a106 = new javax.swing.JLabel();
-        a107 = new javax.swing.JLabel();
-        a105 = new javax.swing.JLabel();
-        a108 = new javax.swing.JLabel();
-        a109 = new javax.swing.JLabel();
-        a110 = new javax.swing.JLabel();
-        a111 = new javax.swing.JLabel();
-        a112 = new javax.swing.JLabel();
-        a113 = new javax.swing.JLabel();
-        a144 = new javax.swing.JLabel();
-        a145 = new javax.swing.JLabel();
-        a146 = new javax.swing.JLabel();
-        a147 = new javax.swing.JLabel();
-        a148 = new javax.swing.JLabel();
-        a149 = new javax.swing.JLabel();
-        a136 = new javax.swing.JLabel();
-        a137 = new javax.swing.JLabel();
-        a135 = new javax.swing.JLabel();
-        a138 = new javax.swing.JLabel();
-        a139 = new javax.swing.JLabel();
-        a140 = new javax.swing.JLabel();
-        a141 = new javax.swing.JLabel();
-        a142 = new javax.swing.JLabel();
-        a143 = new javax.swing.JLabel();
+        a69 = new javax.swing.JLabel();
+        a70 = new javax.swing.JLabel();
+        a71 = new javax.swing.JLabel();
+        a72 = new javax.swing.JLabel();
+        a73 = new javax.swing.JLabel();
+        a74 = new javax.swing.JLabel();
+        a75 = new javax.swing.JLabel();
         a76 = new javax.swing.JLabel();
         a77 = new javax.swing.JLabel();
-        a75 = new javax.swing.JLabel();
         a78 = new javax.swing.JLabel();
         a79 = new javax.swing.JLabel();
         a80 = new javax.swing.JLabel();
         a81 = new javax.swing.JLabel();
         a82 = new javax.swing.JLabel();
         a83 = new javax.swing.JLabel();
+        a84 = new javax.swing.JLabel();
+        a85 = new javax.swing.JLabel();
+        a86 = new javax.swing.JLabel();
+        a87 = new javax.swing.JLabel();
+        a88 = new javax.swing.JLabel();
+        a89 = new javax.swing.JLabel();
+        a90 = new javax.swing.JLabel();
+        a91 = new javax.swing.JLabel();
+        a92 = new javax.swing.JLabel();
+        a93 = new javax.swing.JLabel();
+        a94 = new javax.swing.JLabel();
+        a95 = new javax.swing.JLabel();
+        a96 = new javax.swing.JLabel();
+        a97 = new javax.swing.JLabel();
+        a98 = new javax.swing.JLabel();
+        a99 = new javax.swing.JLabel();
+        a100 = new javax.swing.JLabel();
+        a101 = new javax.swing.JLabel();
+        a102 = new javax.swing.JLabel();
+        a103 = new javax.swing.JLabel();
+        a104 = new javax.swing.JLabel();
+        a105 = new javax.swing.JLabel();
+        a106 = new javax.swing.JLabel();
+        a107 = new javax.swing.JLabel();
+        a108 = new javax.swing.JLabel();
+        a109 = new javax.swing.JLabel();
+        a110 = new javax.swing.JLabel();
+        a111 = new javax.swing.JLabel();
+        a112 = new javax.swing.JLabel();
+        a113 = new javax.swing.JLabel();
+        a114 = new javax.swing.JLabel();
+        a115 = new javax.swing.JLabel();
+        a116 = new javax.swing.JLabel();
+        a117 = new javax.swing.JLabel();
+        a118 = new javax.swing.JLabel();
+        a119 = new javax.swing.JLabel();
+        a120 = new javax.swing.JLabel();
+        a121 = new javax.swing.JLabel();
+        a122 = new javax.swing.JLabel();
+        a123 = new javax.swing.JLabel();
+        a124 = new javax.swing.JLabel();
+        a125 = new javax.swing.JLabel();
+        a126 = new javax.swing.JLabel();
+        a127 = new javax.swing.JLabel();
+        a128 = new javax.swing.JLabel();
+        a129 = new javax.swing.JLabel();
+        a130 = new javax.swing.JLabel();
+        a131 = new javax.swing.JLabel();
+        a132 = new javax.swing.JLabel();
+        a133 = new javax.swing.JLabel();
+        a134 = new javax.swing.JLabel();
+        a135 = new javax.swing.JLabel();
+        a136 = new javax.swing.JLabel();
+        a137 = new javax.swing.JLabel();
+        a138 = new javax.swing.JLabel();
+        a139 = new javax.swing.JLabel();
+        a140 = new javax.swing.JLabel();
+        a141 = new javax.swing.JLabel();
+        a142 = new javax.swing.JLabel();
+        a143 = new javax.swing.JLabel();
+        a144 = new javax.swing.JLabel();
+        a145 = new javax.swing.JLabel();
+        a146 = new javax.swing.JLabel();
+        a147 = new javax.swing.JLabel();
+        a148 = new javax.swing.JLabel();
+        a149 = new javax.swing.JLabel();
         a150 = new javax.swing.JLabel();
         a151 = new javax.swing.JLabel();
         a152 = new javax.swing.JLabel();
@@ -256,10 +262,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
         a222 = new javax.swing.JLabel();
         a223 = new javax.swing.JLabel();
         a224 = new javax.swing.JLabel();
-        campoEstado = new javax.swing.JLabel();
-        botonA = new javax.swing.JButton();
-        botonB = new javax.swing.JButton();
-        botonC = new javax.swing.JButton();
 
         FormListener formListener = new FormListener();
 
@@ -3348,685 +3350,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
 
         public void mouseClicked(java.awt.event.MouseEvent evt) {
             casillaPulsada(evt);
-/*
-
-            if (evt.getSource() == a0) {
-
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a49) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a195) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a21) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a172) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a120) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a146) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a31) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a66) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a173) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a170) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a122) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a192) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a142) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a36) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a175) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a109) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a14) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a161) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a149) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a130) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a47) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a17) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a53) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a108) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a72) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a143) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a203) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a15) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a68) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a136) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a133) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a107) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a45) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a116) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a13) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a205) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a105) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a4) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a41) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a79) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a118) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a6) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a119) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a27) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a156) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a129) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a167) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a213) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a42) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a37) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a160) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a202) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a158) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a64) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a206) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a217) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a144) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a18) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a12) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a154) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a20) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a174) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a191) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a39) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a177) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a214) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a157) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a184) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a71) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a100) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a99) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a69) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a178) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a207) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a50) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a62) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a220) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a164) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a102) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a162) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a132) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a185) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a43) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a224) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a223) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a152) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a210) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a90) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a155) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a60) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a211) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a9) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a139) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a126) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a51) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a197) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a40) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a219) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a56) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a186) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a22) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a145) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a23) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a113) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a76) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a91) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a8) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a88) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a1) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a94) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a153) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a151) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a182) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a123) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a216) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a128) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a98) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a19) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a87) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a16) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a32) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a140) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a80) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a110) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a30) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a124) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a73) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a179) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a3) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a208) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a183) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a188) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a166) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a198) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a24) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a134) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a65) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a10) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a82) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a169) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a57) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a55) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a84) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a97) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a138) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a77) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a168) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a148) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a193) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a54) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a104) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a58) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a115) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a44) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a147) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a46) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a187) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a92) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a159) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a48) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a33) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a209) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a29) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a85) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a96) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a200) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a78) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a59) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a111) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a75) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a194) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a212) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a137) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a189) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a70) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a176) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a201) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a34) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a218) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a165) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a215) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a11) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a38) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a25) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a221) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a112) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a125) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a131) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a196) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a52) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a163) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a93) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a101) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a180) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a26) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a67) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a74) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a35) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a171) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a127) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a141) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a222) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a5) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a204) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a61) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a103) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a106) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a2) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a81) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a95) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a28) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a86) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a190) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a7) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a117) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a181) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a114) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a121) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a135) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a63) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a89) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a199) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a83) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-            else if (evt.getSource() == a150) {
-                Gomoku.this.casillaPulsada(evt);
-            }
-*/
         }
 
 
@@ -4104,145 +3427,27 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     // Variables declaration - do not modify
     private javax.swing.JLabel a0;
     private javax.swing.JLabel a1;
-    private javax.swing.JLabel a10;
-    private javax.swing.JLabel a100;
-    private javax.swing.JLabel a101;
-    private javax.swing.JLabel a102;
-    private javax.swing.JLabel a103;
-    private javax.swing.JLabel a104;
-    private javax.swing.JLabel a105;
-    private javax.swing.JLabel a106;
-    private javax.swing.JLabel a107;
-    private javax.swing.JLabel a108;
-    private javax.swing.JLabel a109;
-    private javax.swing.JLabel a11;
-    private javax.swing.JLabel a110;
-    private javax.swing.JLabel a111;
-    private javax.swing.JLabel a112;
-    private javax.swing.JLabel a113;
-    private javax.swing.JLabel a114;
-    private javax.swing.JLabel a115;
-    private javax.swing.JLabel a116;
-    private javax.swing.JLabel a117;
-    private javax.swing.JLabel a118;
-    private javax.swing.JLabel a119;
-    private javax.swing.JLabel a12;
-    private javax.swing.JLabel a120;
-    private javax.swing.JLabel a121;
-    private javax.swing.JLabel a122;
-    private javax.swing.JLabel a123;
-    private javax.swing.JLabel a124;
-    private javax.swing.JLabel a125;
-    private javax.swing.JLabel a126;
-    private javax.swing.JLabel a127;
-    private javax.swing.JLabel a128;
-    private javax.swing.JLabel a129;
-    private javax.swing.JLabel a13;
-    private javax.swing.JLabel a130;
-    private javax.swing.JLabel a131;
-    private javax.swing.JLabel a132;
-    private javax.swing.JLabel a133;
-    private javax.swing.JLabel a134;
-    private javax.swing.JLabel a135;
-    private javax.swing.JLabel a136;
-    private javax.swing.JLabel a137;
-    private javax.swing.JLabel a138;
-    private javax.swing.JLabel a139;
-    private javax.swing.JLabel a14;
-    private javax.swing.JLabel a140;
-    private javax.swing.JLabel a141;
-    private javax.swing.JLabel a142;
-    private javax.swing.JLabel a143;
-    private javax.swing.JLabel a144;
-    private javax.swing.JLabel a145;
-    private javax.swing.JLabel a146;
-    private javax.swing.JLabel a147;
-    private javax.swing.JLabel a148;
-    private javax.swing.JLabel a149;
-    private javax.swing.JLabel a15;
-    private javax.swing.JLabel a150;
-    private javax.swing.JLabel a151;
-    private javax.swing.JLabel a152;
-    private javax.swing.JLabel a153;
-    private javax.swing.JLabel a154;
-    private javax.swing.JLabel a155;
-    private javax.swing.JLabel a156;
-    private javax.swing.JLabel a157;
-    private javax.swing.JLabel a158;
-    private javax.swing.JLabel a159;
-    private javax.swing.JLabel a16;
-    private javax.swing.JLabel a160;
-    private javax.swing.JLabel a161;
-    private javax.swing.JLabel a162;
-    private javax.swing.JLabel a163;
-    private javax.swing.JLabel a164;
-    private javax.swing.JLabel a165;
-    private javax.swing.JLabel a166;
-    private javax.swing.JLabel a167;
-    private javax.swing.JLabel a168;
-    private javax.swing.JLabel a169;
-    private javax.swing.JLabel a17;
-    private javax.swing.JLabel a170;
-    private javax.swing.JLabel a171;
-    private javax.swing.JLabel a172;
-    private javax.swing.JLabel a173;
-    private javax.swing.JLabel a174;
-    private javax.swing.JLabel a175;
-    private javax.swing.JLabel a176;
-    private javax.swing.JLabel a177;
-    private javax.swing.JLabel a178;
-    private javax.swing.JLabel a179;
-    private javax.swing.JLabel a18;
-    private javax.swing.JLabel a180;
-    private javax.swing.JLabel a181;
-    private javax.swing.JLabel a182;
-    private javax.swing.JLabel a183;
-    private javax.swing.JLabel a184;
-    private javax.swing.JLabel a185;
-    private javax.swing.JLabel a186;
-    private javax.swing.JLabel a187;
-    private javax.swing.JLabel a188;
-    private javax.swing.JLabel a189;
-    private javax.swing.JLabel a19;
-    private javax.swing.JLabel a190;
-    private javax.swing.JLabel a191;
-    private javax.swing.JLabel a192;
-    private javax.swing.JLabel a193;
-    private javax.swing.JLabel a194;
-    private javax.swing.JLabel a195;
-    private javax.swing.JLabel a196;
-    private javax.swing.JLabel a197;
-    private javax.swing.JLabel a198;
-    private javax.swing.JLabel a199;
     private javax.swing.JLabel a2;
+    private javax.swing.JLabel a3;
+    private javax.swing.JLabel a4;
+    private javax.swing.JLabel a5;
+    private javax.swing.JLabel a6;
+    private javax.swing.JLabel a7;
+    private javax.swing.JLabel a8;
+    private javax.swing.JLabel a9;
+    private javax.swing.JLabel a10;
+    private javax.swing.JLabel a11;
+    private javax.swing.JLabel a12;
+    private javax.swing.JLabel a13;
+    private javax.swing.JLabel a14;
+    private javax.swing.JLabel a15;
+    private javax.swing.JLabel a16;
+    private javax.swing.JLabel a17;
+    private javax.swing.JLabel a18;
+    private javax.swing.JLabel a19;
     private javax.swing.JLabel a20;
-    private javax.swing.JLabel a200;
-    private javax.swing.JLabel a201;
-    private javax.swing.JLabel a202;
-    private javax.swing.JLabel a203;
-    private javax.swing.JLabel a204;
-    private javax.swing.JLabel a205;
-    private javax.swing.JLabel a206;
-    private javax.swing.JLabel a207;
-    private javax.swing.JLabel a208;
-    private javax.swing.JLabel a209;
     private javax.swing.JLabel a21;
-    private javax.swing.JLabel a210;
-    private javax.swing.JLabel a211;
-    private javax.swing.JLabel a212;
-    private javax.swing.JLabel a213;
-    private javax.swing.JLabel a214;
-    private javax.swing.JLabel a215;
-    private javax.swing.JLabel a216;
-    private javax.swing.JLabel a217;
-    private javax.swing.JLabel a218;
-    private javax.swing.JLabel a219;
     private javax.swing.JLabel a22;
-    private javax.swing.JLabel a220;
-    private javax.swing.JLabel a221;
-    private javax.swing.JLabel a222;
-    private javax.swing.JLabel a223;
-    private javax.swing.JLabel a224;
     private javax.swing.JLabel a23;
     private javax.swing.JLabel a24;
     private javax.swing.JLabel a25;
@@ -4250,7 +3455,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a27;
     private javax.swing.JLabel a28;
     private javax.swing.JLabel a29;
-    private javax.swing.JLabel a3;
     private javax.swing.JLabel a30;
     private javax.swing.JLabel a31;
     private javax.swing.JLabel a32;
@@ -4261,7 +3465,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a37;
     private javax.swing.JLabel a38;
     private javax.swing.JLabel a39;
-    private javax.swing.JLabel a4;
     private javax.swing.JLabel a40;
     private javax.swing.JLabel a41;
     private javax.swing.JLabel a42;
@@ -4272,7 +3475,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a47;
     private javax.swing.JLabel a48;
     private javax.swing.JLabel a49;
-    private javax.swing.JLabel a5;
     private javax.swing.JLabel a50;
     private javax.swing.JLabel a51;
     private javax.swing.JLabel a52;
@@ -4283,7 +3485,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a57;
     private javax.swing.JLabel a58;
     private javax.swing.JLabel a59;
-    private javax.swing.JLabel a6;
     private javax.swing.JLabel a60;
     private javax.swing.JLabel a61;
     private javax.swing.JLabel a62;
@@ -4294,7 +3495,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a67;
     private javax.swing.JLabel a68;
     private javax.swing.JLabel a69;
-    private javax.swing.JLabel a7;
     private javax.swing.JLabel a70;
     private javax.swing.JLabel a71;
     private javax.swing.JLabel a72;
@@ -4305,7 +3505,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a77;
     private javax.swing.JLabel a78;
     private javax.swing.JLabel a79;
-    private javax.swing.JLabel a8;
     private javax.swing.JLabel a80;
     private javax.swing.JLabel a81;
     private javax.swing.JLabel a82;
@@ -4316,7 +3515,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a87;
     private javax.swing.JLabel a88;
     private javax.swing.JLabel a89;
-    private javax.swing.JLabel a9;
     private javax.swing.JLabel a90;
     private javax.swing.JLabel a91;
     private javax.swing.JLabel a92;
@@ -4327,6 +3525,131 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     private javax.swing.JLabel a97;
     private javax.swing.JLabel a98;
     private javax.swing.JLabel a99;
+    private javax.swing.JLabel a100;
+    private javax.swing.JLabel a101;
+    private javax.swing.JLabel a102;
+    private javax.swing.JLabel a103;
+    private javax.swing.JLabel a104;
+    private javax.swing.JLabel a105;
+    private javax.swing.JLabel a106;
+    private javax.swing.JLabel a107;
+    private javax.swing.JLabel a108;
+    private javax.swing.JLabel a109;
+    private javax.swing.JLabel a110;
+    private javax.swing.JLabel a111;
+    private javax.swing.JLabel a112;
+    private javax.swing.JLabel a113;
+    private javax.swing.JLabel a114;
+    private javax.swing.JLabel a115;
+    private javax.swing.JLabel a116;
+    private javax.swing.JLabel a117;
+    private javax.swing.JLabel a118;
+    private javax.swing.JLabel a119;
+    private javax.swing.JLabel a120;
+    private javax.swing.JLabel a121;
+    private javax.swing.JLabel a122;
+    private javax.swing.JLabel a123;
+    private javax.swing.JLabel a124;
+    private javax.swing.JLabel a125;
+    private javax.swing.JLabel a126;
+    private javax.swing.JLabel a127;
+    private javax.swing.JLabel a128;
+    private javax.swing.JLabel a129;
+    private javax.swing.JLabel a130;
+    private javax.swing.JLabel a131;
+    private javax.swing.JLabel a132;
+    private javax.swing.JLabel a133;
+    private javax.swing.JLabel a134;
+    private javax.swing.JLabel a135;
+    private javax.swing.JLabel a136;
+    private javax.swing.JLabel a137;
+    private javax.swing.JLabel a138;
+    private javax.swing.JLabel a139;
+    private javax.swing.JLabel a140;
+    private javax.swing.JLabel a141;
+    private javax.swing.JLabel a142;
+    private javax.swing.JLabel a143;
+    private javax.swing.JLabel a144;
+    private javax.swing.JLabel a145;
+    private javax.swing.JLabel a146;
+    private javax.swing.JLabel a147;
+    private javax.swing.JLabel a148;
+    private javax.swing.JLabel a149;
+    private javax.swing.JLabel a150;
+    private javax.swing.JLabel a151;
+    private javax.swing.JLabel a152;
+    private javax.swing.JLabel a153;
+    private javax.swing.JLabel a154;
+    private javax.swing.JLabel a155;
+    private javax.swing.JLabel a156;
+    private javax.swing.JLabel a157;
+    private javax.swing.JLabel a158;
+    private javax.swing.JLabel a159;
+    private javax.swing.JLabel a160;
+    private javax.swing.JLabel a161;
+    private javax.swing.JLabel a162;
+    private javax.swing.JLabel a163;
+    private javax.swing.JLabel a164;
+    private javax.swing.JLabel a165;
+    private javax.swing.JLabel a166;
+    private javax.swing.JLabel a167;
+    private javax.swing.JLabel a168;
+    private javax.swing.JLabel a169;
+    private javax.swing.JLabel a170;
+    private javax.swing.JLabel a171;
+    private javax.swing.JLabel a172;
+    private javax.swing.JLabel a173;
+    private javax.swing.JLabel a174;
+    private javax.swing.JLabel a175;
+    private javax.swing.JLabel a176;
+    private javax.swing.JLabel a177;
+    private javax.swing.JLabel a178;
+    private javax.swing.JLabel a179;
+    private javax.swing.JLabel a180;
+    private javax.swing.JLabel a181;
+    private javax.swing.JLabel a182;
+    private javax.swing.JLabel a183;
+    private javax.swing.JLabel a184;
+    private javax.swing.JLabel a185;
+    private javax.swing.JLabel a186;
+    private javax.swing.JLabel a187;
+    private javax.swing.JLabel a188;
+    private javax.swing.JLabel a189;
+    private javax.swing.JLabel a190;
+    private javax.swing.JLabel a191;
+    private javax.swing.JLabel a192;
+    private javax.swing.JLabel a193;
+    private javax.swing.JLabel a194;
+    private javax.swing.JLabel a195;
+    private javax.swing.JLabel a196;
+    private javax.swing.JLabel a197;
+    private javax.swing.JLabel a198;
+    private javax.swing.JLabel a199;
+    private javax.swing.JLabel a200;
+    private javax.swing.JLabel a201;
+    private javax.swing.JLabel a202;
+    private javax.swing.JLabel a203;
+    private javax.swing.JLabel a204;
+    private javax.swing.JLabel a205;
+    private javax.swing.JLabel a206;
+    private javax.swing.JLabel a207;
+    private javax.swing.JLabel a208;
+    private javax.swing.JLabel a209;
+    private javax.swing.JLabel a210;
+    private javax.swing.JLabel a211;
+    private javax.swing.JLabel a212;
+    private javax.swing.JLabel a213;
+    private javax.swing.JLabel a214;
+    private javax.swing.JLabel a215;
+    private javax.swing.JLabel a216;
+    private javax.swing.JLabel a217;
+    private javax.swing.JLabel a218;
+    private javax.swing.JLabel a219;
+    private javax.swing.JLabel a220;
+    private javax.swing.JLabel a221;
+    private javax.swing.JLabel a222;
+    private javax.swing.JLabel a223;
+    private javax.swing.JLabel a224;
     private javax.swing.JButton botonA;
     private javax.swing.JButton botonB;
     private javax.swing.JButton botonC;
@@ -4537,106 +3860,6 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
         vectorizarCasilla(a197);
         vectorizarCasilla(a198);
         vectorizarCasilla(a199);
-        vectorizarCasilla(a100);
-        vectorizarCasilla(a101);
-        vectorizarCasilla(a102);
-        vectorizarCasilla(a103);
-        vectorizarCasilla(a104);
-        vectorizarCasilla(a105);
-        vectorizarCasilla(a106);
-        vectorizarCasilla(a107);
-        vectorizarCasilla(a108);
-        vectorizarCasilla(a109);
-        vectorizarCasilla(a110);
-        vectorizarCasilla(a111);
-        vectorizarCasilla(a112);
-        vectorizarCasilla(a113);
-        vectorizarCasilla(a114);
-        vectorizarCasilla(a115);
-        vectorizarCasilla(a116);
-        vectorizarCasilla(a117);
-        vectorizarCasilla(a118);
-        vectorizarCasilla(a119);
-        vectorizarCasilla(a120);
-        vectorizarCasilla(a121);
-        vectorizarCasilla(a122);
-        vectorizarCasilla(a123);
-        vectorizarCasilla(a124);
-        vectorizarCasilla(a125);
-        vectorizarCasilla(a126);
-        vectorizarCasilla(a127);
-        vectorizarCasilla(a128);
-        vectorizarCasilla(a129);
-        vectorizarCasilla(a130);
-        vectorizarCasilla(a131);
-        vectorizarCasilla(a132);
-        vectorizarCasilla(a133);
-        vectorizarCasilla(a134);
-        vectorizarCasilla(a135);
-        vectorizarCasilla(a136);
-        vectorizarCasilla(a137);
-        vectorizarCasilla(a138);
-        vectorizarCasilla(a139);
-        vectorizarCasilla(a140);
-        vectorizarCasilla(a141);
-        vectorizarCasilla(a142);
-        vectorizarCasilla(a143);
-        vectorizarCasilla(a144);
-        vectorizarCasilla(a145);
-        vectorizarCasilla(a146);
-        vectorizarCasilla(a147);
-        vectorizarCasilla(a148);
-        vectorizarCasilla(a149);
-        vectorizarCasilla(a150);
-        vectorizarCasilla(a151);
-        vectorizarCasilla(a152);
-        vectorizarCasilla(a153);
-        vectorizarCasilla(a154);
-        vectorizarCasilla(a155);
-        vectorizarCasilla(a156);
-        vectorizarCasilla(a157);
-        vectorizarCasilla(a158);
-        vectorizarCasilla(a159);
-        vectorizarCasilla(a160);
-        vectorizarCasilla(a161);
-        vectorizarCasilla(a162);
-        vectorizarCasilla(a163);
-        vectorizarCasilla(a164);
-        vectorizarCasilla(a165);
-        vectorizarCasilla(a166);
-        vectorizarCasilla(a167);
-        vectorizarCasilla(a168);
-        vectorizarCasilla(a169);
-        vectorizarCasilla(a170);
-        vectorizarCasilla(a171);
-        vectorizarCasilla(a172);
-        vectorizarCasilla(a173);
-        vectorizarCasilla(a174);
-        vectorizarCasilla(a175);
-        vectorizarCasilla(a176);
-        vectorizarCasilla(a177);
-        vectorizarCasilla(a178);
-        vectorizarCasilla(a179);
-        vectorizarCasilla(a180);
-        vectorizarCasilla(a181);
-        vectorizarCasilla(a182);
-        vectorizarCasilla(a183);
-        vectorizarCasilla(a184);
-        vectorizarCasilla(a185);
-        vectorizarCasilla(a186);
-        vectorizarCasilla(a187);
-        vectorizarCasilla(a188);
-        vectorizarCasilla(a189);
-        vectorizarCasilla(a190);
-        vectorizarCasilla(a191);
-        vectorizarCasilla(a192);
-        vectorizarCasilla(a193);
-        vectorizarCasilla(a194);
-        vectorizarCasilla(a195);
-        vectorizarCasilla(a196);
-        vectorizarCasilla(a197);
-        vectorizarCasilla(a198);
-        vectorizarCasilla(a199);
         vectorizarCasilla(a200);
         vectorizarCasilla(a201);
         vectorizarCasilla(a202);
@@ -4666,7 +3889,8 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     }
 
     // campos propios
-    boolean esTurnoA=true; // comenza jugador A
+    boolean esActivaInterfaz=true; // interfaz gráfica en activo
+    boolean esTurnoA=true; // comienza jugador A
 
     // métodos propios
     void establecerIcono() {
@@ -4693,8 +3917,14 @@ public class Gomoku extends javax.swing.JFrame implements ControlGomoku {
     }
 
     private void pulsandoCasilla(java.awt.event.MouseEvent evt) {
-        int n=getOrdinal((JLabel) evt.getSource());
-        showMessageDialog(null, "casilla pulsada: "+n+"\nfila: "+ordinalToFila(n)+"\ncolumna: "+ordinalToColumna(n), "Casilla pulsada", JOptionPane.INFORMATION_MESSAGE);
+        int ordinal=getOrdinal((JLabel) evt.getSource());
+        if (esActivaInterfaz && ordinal>=0 && getMarca(ordinal)==marcaVacia ) {
+            // showMessageDialog(null, "casilla pulsada: "+n+"\nfila: "+ordinalToFila(n)+"\ncolumna: "+ordinalToColumna(n), "Casilla pulsada", JOptionPane.INFORMATION_MESSAGE);
+            setMarca(ordinal, esTurnoA ? marcaA : marcaB);
+            ((JLabel) evt.getSource()).setBackground(esTurnoA ? colorA : colorB);
+            ((JLabel) evt.getSource()).setOpaque(true);
+            esTurnoA = !esTurnoA;
+        }
         return;
     }
     private void probando() {

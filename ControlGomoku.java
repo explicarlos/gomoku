@@ -67,8 +67,10 @@ public interface ControlGomoku {
 		return;
 	}
 	default void borrarMarcas() { // marcar casillas como vacías
-		for (int n=0; n<numCasillas; n++)
-			marcas[n]=marcaVacia;
+		for (int n=0; n<numCasillas; n++) {
+			marcas[n] = marcaVacia;
+			casillas.get(n).setOpaque(false);
+		}
 		return;
 	}
 	default int getOrdinal(JLabel casilla) {
