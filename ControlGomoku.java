@@ -44,7 +44,7 @@ public interface ControlGomoku {
 		return getCasilla(filaColumnaToOrdinal(fila, columna));
 	}
 	default int filaColumnaToOrdinal(int fila, int columna) { // devuelve ordinal a partir de fila y columna
-		return fila * numFilas + numColumnas;
+		return fila * numColumnas + columna;
 	}
 	default int ordinalToFila(int ordinal) { // devuelve fila a partir de ordinal
 		return ordinal/numColumnas;
@@ -67,10 +67,8 @@ public interface ControlGomoku {
 		return;
 	}
 	default void borrarMarcas() { // marcar casillas como vacías
-		for (int n=0; n<numCasillas; n++) {
-			marcas[n] = marcaVacia;
-			casillas.get(n).setOpaque(false);
-		}
+		for (int n=0; n<numCasillas; n++)
+			setMarca(n, marcaVacia);
 		return;
 	}
 	default int getOrdinal(JLabel casilla) {
